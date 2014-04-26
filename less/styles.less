@@ -1,0 +1,33 @@
+//El orden en el que realizamos la importación de los módulos de LESS
+//es importante, porque al compilarse se genera un CSS que funciona en cascada.
+//Por tanto el reset tiene que ser el primero, para que afecte a los demás.
+/*------------------------------------*\
+    $STYLES
+\*------------------------------------*/
+
+//Variables
+@import "variables.less";
+
+//Reset
+@import "reset.less";
+
+//Tipografía
+//@import "tipografia.less";
+
+//Links
+@import "links.less";
+
+//Botones
+//@import "botones.less";
+
+//Formularios
+//@import "formularios.less";
+
+//Layout
+@import "layout.less";
+
+//Helpers
+@import "helpers.less";
+
+//Media Queries
+//@import "media_queries.less";
